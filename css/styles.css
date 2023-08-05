@@ -312,8 +312,11 @@ button {
 }
 /* Footer */
 .footer {
-  padding-top: 102px;
-  padding-bottom: 100px;
+  padding: 100px 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .studio-footer {
   color: var(--light);
@@ -327,5 +330,4 @@ button {
   line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
   width: 264px;
-  margin-top: 18px;
 }
