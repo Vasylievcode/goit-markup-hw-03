@@ -72,6 +72,9 @@ button {
   padding-bottom: 120px;
 }
 /* Header */
+.header-logo {
+  padding: 24px 0;
+}
 .header {
   border-bottom: 1px solid var(--accent);
   background: var(--white-background);
