@@ -169,6 +169,13 @@ button {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-card {
+  width: calc((100% - 3 * 24px) / 4);
+}
 .features-title {
   color: var(--dark);
   font-size: 20px;
@@ -281,8 +288,9 @@ button {
   letter-spacing: 0.32px;
 }
 /* Footer */
-.footer-logo {
-  margin-right: 76px;
+.footer {
+  padding-top: 102px;
+  padding-bottom: 100px;
 }
 .studio-footer {
   color: var(--light);
@@ -295,4 +303,6 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
+  width: 264px;
+  margin-top: 18px;
 }
