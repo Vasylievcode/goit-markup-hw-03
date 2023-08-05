@@ -18,21 +18,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="header-container container">
         <!-- Header -->
-        <nav>
-          <a class="logo" href="./index.html"
+        <nav class="nav">
+          <a class="header-logo logo" href="./index.html"
             >Web<span class="studio-header">Studio</span></a
           >
-          <ul class="nav">
+          <ul class="nav-menu">
             <li><a class="nav-link" href="./index.html">Studio</a></li>
             <li><a class="nav-link" href="">Portfolio</a></li>
             <li><a class="nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
-          <ul>
+          <ul class="address-list">
             <li>
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -56,7 +56,7 @@
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
-      <section>
+      <section class="section">
         <div class="container">
           <!-- Features -->
           <h2 class="features-header">Features</h2>
@@ -92,24 +92,28 @@
           </ul>
         </div>
       </section>
-      <section class="team-section">
+      <section class="team-section section">
         <div class="container">
           <!-- Our Team -->
           <h2 class="team-header">Our Team</h2>
-          <ul>
+          <ul class="team-list">
             <li class="team-card">
               <img
                 src="./images/markguerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
               />
-              <h3 class="team-title">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-description">
+                <h3 class="team-title">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img src="./images/tomford.jpg" alt="Tom Ford" width="264" />
-              <h3 class="team-title">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-description">
+                <h3 class="team-title">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -117,8 +121,10 @@
                 alt="Camila Garcia"
                 width="264"
               />
-              <h3 class="team-title">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-description">
+                <h3 class="team-title">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -126,70 +132,84 @@
                 alt="Daniel Wilson"
                 width="264"
               />
-              <h3 class="team-title">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-description">
+                <h3 class="team-title">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="section">
         <div class="container">
           <!-- Our Portfolio -->
           <h2 class="portfolio-header">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="portfolio-list">
+            <li class="portfolio-card">
               <img
                 src="./images/bankingappinterfaceconcept.jpg"
                 alt="Banking App"
                 width="360"
               />
-              <h3 class="portfolio-title">Banking App Interface Concept</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-description">
+                <h3 class="portfolio-title">Banking App Interface Concept</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-card">
               <img
                 src="./images/cashlesspayment.jpg"
                 alt="Cashless Payment"
                 width="360"
               />
-              <h3 class="portfolio-title">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-description">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-card">
               <img
                 src="./images/meditationapp.jpg"
                 alt="Meditation App"
                 width="360"
               />
-              <h3 class="portfolio-title">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-description">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-card">
               <img
                 src="./images/texiservice.jpg"
                 alt="Taxi Service"
                 width="360"
               />
-              <h3 class="portfolio-title">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-description">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-card">
               <img
                 src="./images/screenillustrations.jpg"
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h3 class="portfolio-title">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-description">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-card">
               <img
                 src="./images/onlinecources.jpg"
                 alt="Online Courses"
                 width="360"
               />
-              <h3 class="portfolio-title">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-description">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -198,7 +218,7 @@
     <footer class="footer">
       <div class="container">
         <!-- Footer -->
-        <a class="logo" href="./index.html"
+        <a class="footer-logo logo" href="./index.html"
           >Web<span class="studio-footer">Studio</span></a
         >
         <p class="footer-text">
