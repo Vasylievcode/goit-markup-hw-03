@@ -76,6 +76,8 @@ button {
   display: flex;
   align-items: center;
   height: 72px;
+  border-bottom: 1px solid var(--accent);
+  background: var(--white-background);
 }
 .nav {
   display: flex;
